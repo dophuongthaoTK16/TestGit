@@ -1,0 +1,356 @@
+﻿@model IEnumerable<Webbanhang.Models.SanPham>
+@{
+    ViewBag.Title = "LoaiSP";
+    Layout = "~/Views/_LayoutHome.cshtml";
+}
+
+<div class="columns-container">
+    <div class="container" id="columns">
+        <!-- row -->
+        <div class="row">
+            <!-- Left colunm -->
+            <div class="column col-xs-12 col-sm-3" id="left_column">
+                <!-- block category -->
+                <div class="block left-module">
+                    <p class="title_block"><span class="fa fa-pagelines"></span> PRODUCT</p>
+
+                    <div class="block_content">
+                        <!-- layered -->
+                        <div class="layered layered-category">
+                            <div class="layered-content">
+                                <ul class="tree-menu">
+                                    <li class="active">
+                                        <span></span><a href="product-vegetables.html">Vegetables</a>
+
+                                    </li>
+                                    <li><span></span><a href="product-fruits.html">Fruits</a></li>
+                                    <li><span></span><a href="product-cereals.html">Cereals</a></li>
+                                    <li><span></span><a href="product-beans.html">Beans</a></li>
+                                    <li><span></span><a href="product-nuts-seeds.html">Nuts & Seeds</a></li>
+                                    <li><span></span><a href="product-spices.html">Spices</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- ./layered -->
+                    </div>
+                </div>
+                <!-- ./block category  -->
+                <!-- block best sellers -->
+                <!--<div class="block left-module">-->
+                <!--<p class="title_block">VIDEO</p>-->
+                <!--<div class="block_content">-->
+                <!--<iframe width="255" height="300" src="https://www.youtube.com/embed/oFuC0URYKqU" frameborder="0"-->
+                <!--allowfullscreen=""></iframe>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!-- ./block best sellers  -->
+                <!-- left silide -->
+                <!--????????????????-->
+                <!--./left silde-->
+            </div>
+            <!-- ./left colunm -->
+            <!-- Center colunm-->
+            <div class="center_column col-xs-12 col-sm-9" id="center_column">
+                <!-- page heading-->
+                <h2 class="page-heading">
+                    <span class="page-heading-title">Vegetables</span>
+                </h2>
+                <!-- ../page heading-->
+                <!-- Product -->
+                <div id="product">
+                    <!-- box product -->
+                    <div class="category-featured Vegetables">
+                        <div class="product-featured clearfix">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="box-right">
+                                        <!--&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-->
+                                        <ul class="product-list">
+                                            <li class="col-sm-4 product-item" style="width: 280px;">
+
+                                                <div class="left-block">
+                                                    <a>
+                                                        <img class="img-responsive" alt="product"
+                                                             src="images/product-detail/vegetables/asparagus_300x300.jpg" />
+                                                    </a>
+
+                                                    <div class="quick-view">
+                                                        <a title="Add to my wishlist" class="heart" href="#"></a>
+                                                        <a title="Add to compare" class="compare" href="#"></a>
+                                                        <a title="Quick view" href="images/product-detail/vegetables/asparagus_600x600.jpg" class="search fancybox-button"></a>
+                                                    </div>
+                                                    <div class="add-to-cart">
+                                                        <a class="add-item-to-cart" title="Add to Carr" href="#" data-name="Asparagus - 1kg"
+                                                           data-price="38500" data-image="vegetables/asparagus_300x300.jpg" data-product-code="AS109">Add to Cart</a>
+                                                    </div>
+                                                    <div class="price-percent-reduction2">
+                                                        -30% OFF
+                                                    </div>
+                                                </div>
+                                                <div class="right-block">
+                                                    <h5 class="product-name"><a href="#">Asparagus - 1kg</a></h5>
+
+                                                    <div class="content_price">
+                                                        <span class="price product-price">
+                                                            <span style="color: orangered">Best Price:</span> 38,500đ
+                                                        </span>
+                                                        <!--<br><span style="color: black">Price:</span>-->
+                                                        <!--<span class="price old-price">55,000đ</span>-->
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="col-sm-4 product-item" style="width: 280px;">
+                                                <div class="left-block">
+                                                    <a>
+                                                        <img class="img-responsive" alt="product"
+                                                             src="images/product-detail/vegetables/spinach_300x300.jpg" />
+                                                    </a>
+
+                                                    <div class="quick-view">
+                                                        <a title="Add to my wishlist" class="heart" href="#"></a>
+                                                        <a title="Add to compare" class="compare" href="#"></a>
+                                                        <a title="Quick view" href="images/product-detail/vegetables/spinach_600x600.jpg" class="search fancybox-button"></a>
+                                                    </div>
+                                                    <div class="add-to-cart">
+                                                        <a class="add-item-to-cart" title="Add to Cart" href="#" data-name="Spinach - 1kg"
+                                                           data-price="55000" data-image="vegetables/spinach_300x300.jpg" data-product-code="SP109">Add to Cart</a>
+                                                    </div>
+                                                    <div class="bestseller"></div>
+                                                </div>
+                                                <div class="right-block">
+                                                    <h5 class="product-name"><a href="#">Spinach - 1kg</a></h5>
+
+                                                    <div class="content_price">
+                                                        <span class="price product-price"><span style="color: black">Price:</span> 55,000đ</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="col-sm-4 product-item" style="width: 280px;">
+                                                <div class="left-block">
+                                                    <a>
+                                                        <img class="img-responsive" alt="product"
+                                                             src="images/product-detail/vegetables/cabbage_300x300.jpg" />
+                                                    </a>
+
+                                                    <div class="quick-view">
+                                                        <a title="Add to my wishlist" class="heart" href="#"></a>
+                                                        <a title="Add to compare" class="compare" href="#"></a>
+                                                        <a title="Quick view" href="images/product-detail/vegetables/cabbage_400x600.jpg" class="search fancybox-button"></a>
+                                                    </div>
+                                                    <div class="add-to-cart">
+                                                        <a class="add-item-to-cart" title="Add to Cart" href="#" data-name="Cabbage - 1kg"
+                                                           data-price="52000" data-image="vegetables/cabbage_300x300.jpg" data-product-code="CB044">Add to Cart</a>
+                                                    </div>
+                                                    <div class="bestseller"></div>
+                                                </div>
+                                                <div class="right-block">
+                                                    <h5 class="product-name"><a href="#">Cabbage - 1kg</a></h5>
+
+                                                    <div class="content_price">
+                                                        <span class="price product-price"><span style="color: black">Price:</span> 52,000</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="col-sm-4 product-item" style="width: 280px;">
+                                                <div class="left-block">
+                                                    <a>
+                                                        <img class="img-responsive" alt="product"
+                                                             src="images/product-detail/vegetables/kale_300x300.jpg" />
+                                                    </a>
+
+                                                    <div class="quick-view">
+                                                        <a title="Add to my wishlist" class="heart" href="#"></a>
+                                                        <a title="Add to compare" class="compare" href="#"></a>
+                                                        <a title="Quick view" href="images/product-detail/vegetables/kale_600x600.jpg" class="search fancybox-button"></a>
+                                                    </div>
+                                                    <div class="add-to-cart">
+                                                        <a class="add-item-to-cart" title="Add to Cart" href="#" data-name="Kale - 1kg"
+                                                           data-price="85000" data-image="vegetables/kale_300x300.jpg" data-product-code="KL109">Add to Cart</a>
+                                                    </div>
+                                                    <div class="comingsoon"></div>
+                                                </div>
+                                                <div class="right-block">
+                                                    <h5 class="product-name"><a href="#">Kale - 1kg</a></h5>
+
+                                                    <div class="content_price">
+                                                        <span class="price product-price"><span style="color: black">Price:</span> 85,000đ</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="col-sm-4 product-item" style="width: 280px;">
+                                                <div class="left-block">
+                                                    <a>
+                                                        <img class="img-responsive" alt="product"
+                                                             src="images/product-detail/vegetables/broccoli_300x300.jpg" />
+                                                    </a>
+
+                                                    <div class="quick-view">
+                                                        <a title="Add to my wishlist" class="heart" href="#"></a>
+                                                        <a title="Add to compare" class="compare" href="#"></a>
+                                                        <a title="Quick view" href="images/product-detail/vegetables/broccoli_600x600.jpg" class="search fancybox-button"></a>
+                                                    </div>
+                                                    <div class="add-to-cart">
+                                                        <a class="add-item-to-cart" title="Add to Cart" href="#" data-name="Broccoli - 1kg"
+                                                           data-price="85000" data-image="vegetables/broccoli_300x300.jpg" data-product-code="BC109">Add to Cart</a>
+                                                    </div>
+                                                </div>
+                                                <div class="right-block">
+                                                    <h5 class="product-name"><a href="#">Broccoli - 1kg</a></h5>
+
+                                                    <div class="content_price">
+                                                        <span class="price product-price"><span style="color: black">Price:</span> 85,000đ</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="col-sm-4 product-item" style="width: 280px;">
+                                                <div class="left-block">
+                                                    <a>
+                                                        <img class="img-responsive" alt="product"
+                                                             src="images/product-detail/vegetables/chayote_300x300.jpg" />
+                                                    </a>
+
+                                                    <div class="quick-view">
+                                                        <a title="Add to my wishlist" class="heart" href="#"></a>
+                                                        <a title="Add to compare" class="compare" href="#"></a>
+                                                        <a title="Quick view" href="images/product-detail/vegetables/chayote_600x600.jpg" class="search fancybox-button"></a>
+                                                    </div>
+                                                    <div class="add-to-cart">
+                                                        <a class="add-item-to-cart" title="Add to Cart" href="#" data-name="Chayote_ - 1kg"
+                                                           data-price="15000" data-image="vegetables/chayote_300x300.jpg" data-product-code="CY109">Add to Cart</a>
+                                                    </div>
+                                                </div>
+                                                <div class="right-block">
+                                                    <h5 class="product-name"><a href="#">Chayote - 1kg</a></h5>
+
+                                                    <div class="content_price">
+                                                        <span class="price product-price"><span style="color: black">Price:</span> 15,000đ</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="col-sm-4 product-item" style="width: 280px;">
+                                                <div class="left-block">
+                                                    <a>
+                                                        <img class="img-responsive" alt="product"
+                                                             src="images/product-detail/vegetables/cucumber_300x300.jpg" />
+                                                    </a>
+
+                                                    <div class="quick-view">
+                                                        <a title="Add to my wishlist" class="heart" href="#"></a>
+                                                        <a title="Add to compare" class="compare" href="#"></a>
+                                                        <a title="Quick view" href="images/product-detail/vegetables/cucumber_600x600.jpg" class="search fancybox-button"></a>
+                                                    </div>
+                                                    <div class="add-to-cart">
+                                                        <a class="add-item-to-cart" title="Add to Cart" href="#" data-name="Cucumber - 1kg"
+                                                           data-price="25000" data-image="vegetables/cucumber_300x300.jpg" data-product-code="CC109">Add to Cart</a>
+                                                    </div>
+                                                </div>
+                                                <div class="right-block">
+                                                    <h5 class="product-name"><a href="#">Cucumber - 1kg</a></h5>
+
+                                                    <div class="content_price">
+                                                        <span class="price product-price"><span style="color: black">Price:</span> 25,000đ</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="col-sm-4 product-item" style="width: 280px;">
+                                                <div class="left-block">
+                                                    <a>
+                                                        <img class="img-responsive" alt="product"
+                                                             src="images/product-detail/vegetables/potato_300x300.jpg" />
+                                                    </a>
+
+                                                    <div class="quick-view">
+                                                        <a title="Add to my wishlist" class="heart" href="#"></a>
+                                                        <a title="Add to compare" class="compare" href="#"></a>
+                                                        <a title="Quick view" href="images/product-detail/vegetables/potato_600x600.jpg" class="search fancybox-button"></a>
+                                                    </div>
+                                                    <div class="add-to-cart">
+                                                        <a class="add-item-to-cart" title="Add to Cart" href="#" data-name="Potatos - 1kg"
+                                                           data-price="55000" data-image="vegetables/potato_300x300.jpg" data-product-code="GPL109">Add to Cart</a>
+                                                    </div>
+                                                </div>
+                                                <div class="right-block">
+                                                    <h5 class="product-name"><a href="#">Potatos - 1kg</a></h5>
+
+                                                    <div class="content_price">
+                                                        <span class="price product-price"><span style="color: black">Price:</span> 55,000đ</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="col-sm-4 product-item" style="width: 280px;">
+                                                <div class="left-block">
+                                                    <a>
+                                                        <img class="img-responsive" alt="product"
+                                                             src="images/product-detail/vegetables/pokchoy_300x300.jpg" />
+                                                    </a>
+
+                                                    <div class="quick-view">
+                                                        <a title="Add to my wishlist" class="heart" href="#"></a>
+                                                        <a title="Add to compare" class="compare" href="#"></a>
+                                                        <a title="Quick view" href="images/product-detail/vegetables/pokchoy_600x600.jpg" class="search fancybox-button"></a>
+                                                    </div>
+                                                    <div class="add-to-cart">
+                                                        <a class="add-item-to-cart" title="Add to Cart" href="#" data-name="Pokchoy - 1kg"
+                                                           data-price="55000" data-image="vegetables/pokchoy_300x300.jpg" data-product-code="PC109">Add to Cart</a>
+                                                    </div>
+                                                </div>
+                                                <div class="right-block">
+                                                    <h5 class="product-name"><a href="#">Pokchoy - 1kg</a></h5>
+
+                                                    <div class="content_price">
+                                                        <span class="price product-price"><span style="color: black">Price:</span> 55,000đ</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ./box product -->
+                </div>
+                <!-- Product -->
+                <div class="sortPagiBar">
+                    <div class="bottom-pagination">
+                        <nav>
+                            <ul class="pagination">
+                                <li class="active"><a href="product-vegetables.html">1</a></li>
+                                <li><a href="product-vegetables-2.html">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li>
+                                    <a href="#" aria-label="Next">
+                                        <span aria-hidden="true">Next &raquo;</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="show-product-item">
+                        <select name="">
+                            <option value="">Show 9</option>
+                            <option value="">Show 18</option>
+                            <option value="">Show 27</option>
+                            <option value="">Show 36</option>
+                        </select>
+                    </div>
+                    <div class="sort-product">
+                        <select>
+                            <option value="">Product Name</option>
+                            <option value="">Price</option>
+                        </select>
+
+                        <div class="sort-product-icon">
+                            <i class="fa fa-sort-alpha-asc"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ./ Center colunm -->
+        </div>
+        <!-- ./row-->
+    </div>
+</div>
+
