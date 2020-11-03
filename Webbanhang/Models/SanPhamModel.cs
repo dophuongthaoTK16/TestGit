@@ -67,6 +67,7 @@ namespace Webbanhang.Models
             string sql = "Update SanPham set TenSP=N'" + x.TenSP + "',MoTa=N'" + x.MoTa + "', SoLuong='" + x.SoLuong + "', DonGia='" + x.DonGia + "', MaLoai='" + x.MaLoai + "', Anh='" + x.Anh + "' where MaSP='" + x.MaSP + "'";
             dbsp.ghidulieu(sql);
         }
+        //git
         public List<SanPham> getSP_LoaiSP(string id)
         {
             
